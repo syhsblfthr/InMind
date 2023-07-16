@@ -1,0 +1,52 @@
+nav {
+    height: var(--navbar-height);
+
+    margin-top: var(--navbar-margin-top);
+    padding: 0 5vw;
+    box-sizing: border-box;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-container {
+    height: 80%;
+}
+
+#miscellaneous {
+    display: flex;
+    column-gap: 5vw;
+}
+
+#miscellaneous > div {
+	position: relative;
+}
+
+.nav-link {
+    opacity: .5;
+    color: #000;
+
+    transition: .25s opacity;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+#nav-data-hover {
+	right: 0;
+	width: 40vw;
+	position: absolute;
+	background-color: #ABC2C94D;
+}
+
+#nav-data-hover > svg {
+	top: 0;
+	right: 0;
+	position: absolute;
+	transform: translateY(-100%);
+
+	width: 5vw;
+	aspect-ratio: 2 / 1;
+}

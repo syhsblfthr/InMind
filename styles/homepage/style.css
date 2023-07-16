@@ -1,0 +1,39 @@
+@import url('background.css');
+@import url('carousel.css');
+
+[data-sig="home"]#top-container {
+	width: 80%;
+	height: 90%;
+	place-self: center;
+}
+
+[data-sig="home"]#top-text {
+	font-weight: 500;
+	line-height: 1.4em;
+	font-size: 2.25rem;
+	margin: 2.5vh 0 5vh;
+}
+
+[data-sig="home"].bold-text {
+	color: #9F4A4A;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+[data-sig="home"]#bottom-text {
+	width: 50%;
+	margin-bottom: 5vh;
+	font: 500 1.4rem/1.5em "Montserrat", sans-serif;
+}
+
+[data-sig="home"]#more {
+	color: #FFF;
+	border: none;
+	font-size: 1.2rem;
+	padding: .5vw 2vw;
+	margin-top: 2.5vh;
+	border-radius: 1vw;
+	background-color: #8F3E3E;
+	box-shadow: 0 1vh 15px rgba(0, 0, 0, .8);
+	font-family: "Palanquin Dark";
+}
