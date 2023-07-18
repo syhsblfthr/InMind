@@ -1,5 +1,0 @@
-:root {
-    --navbar-height: 10vh;
-    --navbar-margin-top: 2.5vh;
-    --main-height: calc(100% - (var(--navbar-height) + var(--navbar-margin-top)));
-}
