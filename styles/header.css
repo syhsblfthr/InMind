@@ -1,0 +1,30 @@
+@tailwind components;
+
+[data-owner] > header {
+	@apply fixed top-0 w-full z-[1] box-content h-[10vh] bg-clip-border;
+}
+
+[data-owner="tentang"] > header {
+	@apply bg-[#F6F8F7];
+}
+
+[data-owner="homepage"] > header {
+	@apply bg-[#DFA878];
+}
+
+#logo {
+	height: 100%;
+}
+
+#navigation-buttons {
+	display: flex;
+	column-gap: 2.5vw;
+}
+
+#navigation-buttons > button {
+	color: #6C3428;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: "Palanquin Dark";
+}

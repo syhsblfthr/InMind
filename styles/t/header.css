@@ -1,0 +1,37 @@
+[data-owner] > header {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  box-sizing: content-box;
+  height: 10vh;
+  width: 100%;
+  background-clip: border-box;
+}
+
+[data-owner="tentang"] > header {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 248 247 / var(--tw-bg-opacity));
+}
+
+[data-owner="homepage"] > header {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 168 120 / var(--tw-bg-opacity));
+}
+
+#logo {
+  height: 100%;
+}
+
+#navigation-buttons {
+  display: flex;
+  -moz-column-gap: 2.5vw;
+       column-gap: 2.5vw;
+}
+
+#navigation-buttons > button {
+  color: #6C3428;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Palanquin Dark";
+}

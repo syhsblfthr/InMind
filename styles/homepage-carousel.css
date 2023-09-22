@@ -1,0 +1,30 @@
+@tailwind components;
+
+[data-owner="homepage"] .carousel img {
+	position: absolute;
+	transition: all 1.5s cubic-bezier(0.83, 0, 0.14, 1);
+}
+
+[data-owner="homepage"] .carousel .active {
+	@apply scale-75 z-[1] right-[20%] top-[10%];
+}
+
+[data-owner="homepage"] .carousel .active:last-child {
+	@apply translate-x-24 translate-y-24;
+}
+
+[data-owner="homepage"] .carousel .active-in1 {
+	@apply scale-[.25] right-[-2.5%] top-[-25%] blur-lg;
+}
+
+[data-owner="homepage"] .carousel .active-in2 {
+	@apply scale-[.25] blur-lg right-[-15%] top-[10%];
+}
+
+[data-owner="homepage"] .carousel .active-in2:last-child {
+	@apply translate-x-24;
+}
+
+[data-owner="homepage"] .carousel .active-in3 {
+	@apply scale-[.25] blur-lg right-[-5%] top-[35%];
+}

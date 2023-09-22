@@ -1,0 +1,4 @@
+[data-owner="homepage"] :is(h1, p, button) {
+	z-index: 1;
+	position: relative;
+}

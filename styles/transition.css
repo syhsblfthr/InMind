@@ -1,0 +1,15 @@
+@keyframes out-in {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+[data-owner].transition > main {
+	background-color: black;
+	animation: .5s linear 1 forwards out-in;
+}

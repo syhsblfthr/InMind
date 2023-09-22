@@ -1,0 +1,17 @@
+[data-owner="homepage"] > main {
+	padding-top: 2.5%;
+	box-sizing: border-box;
+}
+
+[data-owner="homepage"] .translucent-box {
+	width: 90%;
+	height: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5vmin;
+	background-color: #FFF;
+
+	padding-left: 2.5%;
+	box-sizing: border-box;
+}

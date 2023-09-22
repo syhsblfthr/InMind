@@ -1,0 +1,8 @@
+[data-owner="homepage"] > main button {
+	color: #FFF;
+	padding: .5% 1.5%;
+	font-size: 1.5rem;
+	border-radius: 2.5vmin;
+	background-color: #6C3428;
+	font-family: "Palanquin Dark";
+}

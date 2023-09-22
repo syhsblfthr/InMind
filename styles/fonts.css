@@ -1,0 +1,53 @@
+@font-face {
+	font-weight: 600;
+	font-family: "Inter";
+	src: url("../assets/fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+	font-weight: 400;
+	font-family: "Palanquin Dark";
+	src: url("../assets/fonts/PalanquinDark-Regular.ttf");
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: "Palanquin Dark";
+	src: url("../assets/fonts/PalanquinDark-Medium.ttf");
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: "Palanquin Dark";
+	src: url("../assets/fonts/PalanquinDark-SemiBold.ttf");
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: "Palanquin Dark";
+	src: url("../assets/fonts/PalanquinDark-Bold.ttf");
+}
+
+@font-face {
+	font-weight: 400;
+	font-family: "Poppins";
+	src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: "Poppins";
+	src: url("../assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+	font-weight: 500;
+	font-family: "Montserrat";
+	src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+	font-weight: 400;
+	font-family: "Modern_No_20";
+	src: url("../assets/fonts/Modern_No_20.ttf");
+}

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.yowes {
+	@apply w-fit h-1/4 flex items-center border border-black rounded-2xl justify-center;
+}
+
+[data-owner="tentang"] > main > div:first-child {
+	width: 90%;
+	display: flex;
+	margin: 10vh auto 0;
+	font-family: "Poppins";
+	flex-direction: column;
+}
+
+[data-owner="tentang"] > main > div:first-child > div:first-child > h1 {
+	font-size: 4em;
+}
+
+[data-owner="tentang"] #value {
+	padding: 0 2.5%;
+	box-sizing: border-box;
+}
+
+[data-owner="tentang"] #value .title {
+	font-weight: 400;
+	text-align: center;
+	font-family: "Poppins";
+}
+
+[data-owner="tentang"] #value .logo-font {
+	font-family: "Modern_No_20";
+}
+
+.horizontal-flex {
+	display: flex;
+}
+
+.vertical-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.margin-top {
+	margin-top: 2.5vh;
+}
+
+.poppins-font {
+	font-family: "Poppins";
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.row-gap-5 {
+	row-gap: 5rem;
+}

@@ -1,0 +1,17 @@
+[data-owner="homepage"] .crimson-text {
+	color: #6C3428;
+}
+
+[data-owner="homepage"] h1 {
+	font-size: 3em;
+	font-weight: 500;
+	line-height: 135%;
+	font-family: "Poppins";
+}
+
+[data-owner="homepage"] p {
+	width: 40%;
+	font-size: 1.5em;
+	font-weight: 500;
+	font-family: "Montserrat";
+}
